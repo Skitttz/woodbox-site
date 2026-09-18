@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Woodbox is a lightweight, open-source desktop database manager for PostgreSQL, MySQL, and SQLite. A local-first workspace for everyday SQL.">
+  <meta name="theme-color" content="#111211">
+  <meta property="og:title" content="Woodbox — Open-source database manager">
+  <meta property="og:description"
+    content="Your open-source SQL workspace. Explore data, organize connections, and write queries in a lightweight desktop app.">
+  <meta property="og:image" content="assets/2.table_data.webp">
+  <title>Woodbox — Open-source database manager</title>
+  <link rel="icon" href="assets/icon.webp" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip.text">Skip to content</a>
+
+  <header class="nav-shell">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Woodbox home">
+        <span class="brand-mark" aria-hidden="true">
+          <img src="assets/icon.webp" alt="">
+        </span>
+        <span>Woodbox</span>
+      </a>
+
+      <div class="nav-links" aria-label="Page sections">
+        <a href="#features" data-i18n="nav.features">Features</a>
+        <a href="#screens" data-i18n="nav.screens">Interface</a>
+        <a href="#positioning" data-i18n="nav.positioning">Why Woodbox</a>
+        <a href="#download" data-i18n="nav.download">Download</a>
+      </div>
+
+      <div class="nav-actions">
+        <a class="nav-github" href="https://github.com/antonycms/woodbox" target="_blank" rel="noreferrer"
+          data-i18n="nav.github">GitHub</a>
+        <div class="language-switch" aria-label="Language selector">
+          <button class="lang-option" aria-pressed="false" type="button" data-lang="pt-BR">PT</button>
+          <button class="lang-option is-active" aria-pressed="true" type="button" data-lang="en">EN</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero section-pad">
+      <div class="hero-copy reveal">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Your modern SQL workspace</p>
+        <h1 data-i18n="hero.title">Your databases.
+          Your workspace.</h1>
+        <p class="hero-text" data-i18n="hero.text">Explore tables, write SQL, and organize connections in a lightweight
+          desktop app. From your first connection to your next query, all in one place.</p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" data-download href="https://github.com/antonycms/woodbox/releases/latest"
+            target="_blank" rel="noreferrer">
+            <span data-i18n="hero.primary">Download Woodbox</span>
+            <span class="button-icon" aria-hidden="true">↗</span>
+          </a>
+          <a class="button button-secondary" href="#screens">
+            <span data-i18n="hero.secondary">Explore the interface</span>
+          </a>
+        </div>
+
+        <div class="hero-points" aria-label="Woodbox highlights">
+          <span data-i18n="hero.point1">PostgreSQL · MySQL · SQLite</span>
+          <span data-i18n="hero.point2">Open source</span>
+          <span data-i18n="hero.point3">Windows, macOS, and Linux</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal delay-1">
+        <div class="screen-shell hero-screen">
+          <div class="screen-topbar" aria-hidden="true"><span></span><span></span><span></span></div>
+          <img src="assets/2.table_data.webp" alt="Woodbox table data view" width="1920" height="1040"
+            fetchpriority="high" data-i18n-attr="alt:hero.imageAlt">
+        </div>
+      </div>
+    </section>
+
+    <section class="proof-strip reveal" aria-label="Woodbox product facts">
+      <div>
+        <strong data-i18n="proof.open.value">Open source</strong>
+        <span data-i18n="proof.open.label">Transparent, under the MIT license</span>
+      </div>
+      <div>
+        <strong data-i18n="proof.local.value">Local-first</strong>
+        <span data-i18n="proof.local.label">Projects and preferences on your computer</span>
+      </div>
+      <div>
+        <strong data-i18n="proof.ai.value">Optional AI</strong>
+        <span data-i18n="proof.ai.label">Choose your own provider</span>
+      </div>
+      <div>
+        <strong data-i18n="proof.platforms.value">Cross-platform</strong>
+        <span data-i18n="proof.platforms.label">On the system you already use</span>
+      </div>
+    </section>
+
+    <section id="features" class="features section-pad">
+      <div class="section-heading reveal">
+        <p class="eyebrow" data-i18n="features.eyebrow">For your everyday work</p>
+        <h2 data-i18n="features.title">Less context switching. More clarity.</h2>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card reveal">
+          <div class="feature-copy">
+            <span class="feature-number">01</span>
+            <h3 data-i18n="features.projects.title">Organized projects</h3>
+            <p data-i18n="features.projects.text">Group connections by client, product, or environment. Find your
+              project and pick up where you left off.</p>
+          </div>
+          <img src="assets/1.welcome.webp" alt="Woodbox welcome screen and projects" width="1919" height="1031"
+            loading="lazy" decoding="async" data-i18n-attr="alt:features.projects.alt">
+        </article>
+
+        <article class="feature-card reveal">
+          <div class="feature-copy">
+            <span class="feature-number">02</span>
+            <h3 data-i18n="features.explore.title">Look beyond the rows</h3>
+            <p data-i18n="features.explore.text">Browse data, filter results, and inspect table columns, indexes, and
+              relationships.</p>
+          </div>
+          <img src="assets/2.table_data.webp" alt="Woodbox table data view" width="1920" height="1040" loading="lazy"
+            decoding="async" data-i18n-attr="alt:features.explore.alt">
+        </article>
+
+        <article class="feature-card reveal">
+          <div class="feature-copy">
+            <span class="feature-number">03</span>
+            <h3 data-i18n="features.sql.title">SQL with less repetition</h3>
+            <p data-i18n="features.sql.text">Autocomplete, reusable snippets, and selected-query execution. Organize
+              queries and results in tabs.</p>
+          </div>
+          <img src="assets/5.query_editor.webp" alt="Woodbox SQL query editor" width="1920" height="1040" loading="lazy"
+            decoding="async" data-i18n-attr="alt:features.sql.alt">
+        </article>
+
+        <article class="feature-card reveal">
+          <div class="feature-copy">
+            <span class="feature-number">04</span>
+            <h3 data-i18n="features.schema.title">Understand the structure</h3>
+            <p data-i18n="features.schema.text">Check types, columns, and keys before writing a query. Table details are
+              one click away from your data.</p>
+          </div>
+          <img src="assets/7.table_properties_columns.webp" alt="Woodbox table columns and properties" width="1918"
+            height="1039" loading="lazy" decoding="async" data-i18n-attr="alt:features.schema.alt">
+        </article>
+
+        <article class="feature-card reveal">
+          <div class="feature-copy">
+            <span class="feature-number">05</span>
+            <h3 data-i18n="features.ai.title">A hand beside the editor</h3>
+            <p data-i18n="features.ai.text">Generate, explain, and refine queries with your configured AI provider.
+              Prefer to write on your own? The editor works without it.</p>
+          </div>
+          <img src="assets/6.query_editor_with_ai_panel.webp" alt="Woodbox AI query panel" width="1913" height="1040"
+            loading="lazy" decoding="async" data-i18n-attr="alt:features.ai.alt">
+        </article>
+
+        <article class="feature-card reveal">
+          <div class="feature-copy">
+            <span class="feature-number">06</span>
+            <h3 data-i18n="features.search.title">Find it from the keyboard</h3>
+            <p data-i18n="features.search.text">Use Ctrl/Cmd + K to find tables, functions, and scripts without breaking
+              your train of thought.</p>
+          </div>
+          <img src="assets/4.float_search.webp" alt="Woodbox quick search" width="1913" height="1038" loading="lazy"
+            decoding="async" data-i18n-attr="alt:features.search.alt">
+        </article>
+      </div>
+    </section>
+
+    <section id="screens" class="showcase section-pad">
+      <div class="section-heading centered reveal">
+        <p class="eyebrow" data-i18n="showcase.eyebrow">Inside Woodbox</p>
+        <h2 data-i18n="showcase.title">Meet your next workspace.</h2>
+        <p data-i18n="showcase.text">Explore the screens, from table data to the snippets you use every day.</p>
+      </div>
+
+      <div class="screen-gallery reveal" aria-label="Woodbox screenshots">
+        <button class="gallery-button is-active" aria-pressed="true" aria-controls="galleryImage" type="button"
+          data-screen="0" data-i18n="gallery.data">Data</button>
+        <button class="gallery-button" aria-pressed="false" aria-controls="galleryImage" type="button" data-screen="1"
+          data-i18n="gallery.ai">AI</button>
+        <button class="gallery-button" aria-pressed="false" aria-controls="galleryImage" type="button" data-screen="2"
+          data-i18n="gallery.schema">Structure</button>
+        <button class="gallery-button" aria-pressed="false" aria-controls="galleryImage" type="button" data-screen="3"
+          data-i18n="gallery.search">Search</button>
+        <button class="gallery-button" aria-pressed="false" aria-controls="galleryImage" type="button" data-screen="4"
+          data-i18n="gallery.theme">Themes</button>
+        <button class="gallery-button" aria-pressed="false" aria-controls="galleryImage" type="button" data-screen="5"
+          data-i18n="gallery.snippets">Snippets</button>
+      </div>
+
+      <figure class="gallery-frame reveal delay-1">
+        <div class="screen-shell">
+          <div class="screen-topbar" aria-hidden="true"><span></span><span></span><span></span></div>
+          <img id="galleryImage" src="assets/2.table_data.webp" alt="Woodbox table data view" width="1920" height="1040"
+            loading="lazy" decoding="async">
+        </div>
+        <figcaption class="gallery-caption">
+          <span id="galleryCaption">Woodbox table data view</span>
+          <a id="galleryFullImage" href="assets/2.table_data.webp" target="_blank" rel="noreferrer"
+            data-i18n="gallery.expand">Open full image ↗</a>
+        </figcaption>
+      </figure>
+    </section>
+
+    <section id="positioning" class="positioning section-pad">
+      <div class="positioning-card reveal">
+        <div>
+          <p class="eyebrow" data-i18n="positioning.eyebrow">On your terms</p>
+          <h2 data-i18n="positioning.title">Your workflow. Your choices.</h2>
+          <p data-i18n="positioning.text">A dedicated space for database work, with local organization and the freedom
+            to make it fit your routine.</p>
+        </div>
+        <ul class="position-list">
+          <li><span>01</span><strong data-i18n="positioning.item1.title">Start without signing up</strong>
+            <p data-i18n="positioning.item1.text">Install the app and connect your database. No Woodbox account needed.
+            </p>
+          </li>
+          <li><span>02</span><strong data-i18n="positioning.item2.title">Your workspace stays with you</strong>
+            <p data-i18n="positioning.item2.text">Projects, connections, scripts, and preferences are saved locally.
+              When you use AI, requests go to your configured provider.</p>
+          </li>
+          <li><span>03</span><strong data-i18n="positioning.item3.title">Open to your contributions</strong>
+            <p data-i18n="positioning.item3.text">Explore the code, report issues, and suggest improvements on GitHub.
+              Woodbox is MIT-licensed.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="workflow section-pad">
+      <div class="workflow-card reveal">
+        <div>
+          <p class="eyebrow" data-i18n="workflow.eyebrow">Getting started</p>
+          <h2 data-i18n="workflow.title">Connect. Explore. Query.</h2>
+        </div>
+        <ol class="steps">
+          <li><span>01</span>
+            <p data-i18n="workflow.step1">Create a project and add your database connection.</p>
+          </li>
+          <li><span>02</span>
+            <p data-i18n="workflow.step2">Explore tables and inspect your data structure.</p>
+          </li>
+          <li><span>03</span>
+            <p data-i18n="workflow.step3">Open the editor, run your SQL, and inspect the results.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="download" class="cta section-pad reveal">
+      <p class="eyebrow" data-i18n="cta.eyebrow">Ready to get started?</p>
+      <h2 data-i18n="cta.title">Make room for your next query.</h2>
+      <p data-i18n="cta.text">Get the installer for your system from GitHub releases. Open source, no sign-up.</p>
+      <div class="cta-actions">
+        <a class="button button-primary" data-download href="https://github.com/antonycms/woodbox/releases/latest"
+          target="_blank" rel="noreferrer">
+          <span data-i18n="cta.release">Download Woodbox</span>
+          <span class="button-icon" aria-hidden="true">↗</span>
+        </a>
+        <a class="button button-secondary" href="https://github.com/antonycms/woodbox" target="_blank" rel="noreferrer">
+          <span data-i18n="cta.repo">Contribute on GitHub</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>Woodbox</span>
+    <span data-i18n="footer.text">Made for people who work with data every day.</span>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
